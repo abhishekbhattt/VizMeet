@@ -1,6 +1,7 @@
 let form = document.getElementById("lobby__form");
 
 let displayName = sessionStorage.getItem("display_name");
+
 if (displayName) {
   form.name.value = displayName;
 }
